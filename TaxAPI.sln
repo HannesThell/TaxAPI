@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxAPI", "TaxAPI\TaxAPI.csproj", "{11EB2BCC-5433-438D-8038-4748A25A5B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxAPITests", "TaxAPITests\TaxAPITests.csproj", "{36F811A1-7166-41CC-8DF5-A52D9842467F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11EB2BCC-5433-438D-8038-4748A25A5B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EB2BCC-5433-438D-8038-4748A25A5B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EB2BCC-5433-438D-8038-4748A25A5B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EB2BCC-5433-438D-8038-4748A25A5B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F811A1-7166-41CC-8DF5-A52D9842467F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F811A1-7166-41CC-8DF5-A52D9842467F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F811A1-7166-41CC-8DF5-A52D9842467F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F811A1-7166-41CC-8DF5-A52D9842467F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E43013AF-1148-4519-8E57-0365BFFBE2A9}
+	EndGlobalSection
+EndGlobal
