@@ -63,18 +63,16 @@ namespace TaxAPI.Services
         {
             if (string.IsNullOrEmpty(vehicleType))
                 return false;
-            return Enum.TryParse<TollFreeVehicles>(vehicleType, out var tollFreeVehicle);
+            return Enum.TryParse<TollFreeVehicles>(vehicleType.ToUpper(), out var tollFreeVehicle);
         }
-
-
         private enum TollFreeVehicles
         {
-            Motorcycle = 0,
-            Tractor = 1,
-            Emergency = 2,
-            Diplomat = 3,
-            Foreign = 4,
-            Military = 5
+            MOTORCYCLE = 0,
+            TRACTOR = 1,
+            EMERGENCY = 2,
+            DIPLOMAT = 3,
+            FOREIGN = 4,
+            MILITARY = 5
         }
     }
 }

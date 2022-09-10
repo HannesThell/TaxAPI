@@ -14,12 +14,12 @@ namespace TaxAPITests
         private DateTime firstDate = new(2013, 01, 15, 06, 00, 00);
         private DateTime secondDate = new(2013, 01, 15, 06, 30, 00);
         private DateTime thirdDate = new(2013, 01, 15, 07, 00, 00);
-        private DateTime fourthDate = new(2013, 01, 15, 08, 15, 00);//"2013-01-15 08:15:00";
-        private DateTime fifthDate = new(2013, 01, 15, 08, 30, 00);//"2013-01-15 08:30:00";
-        private DateTime sixthDate = new(2013, 01, 15, 15, 00, 00);//"2013-01-15 15:00:00";
-        private DateTime seventhDate = new(2013, 01, 15, 16, 30, 00);//"2013-01-15 16:30:00";
-        private DateTime eightDate = new(2013, 01, 15, 18, 50, 00);//"2013-01-15 18:50:00";
-        private DateTime ninthDate = new(2013, 01, 15, 20, 50, 00);//"2013-01-15 20:50:00";
+        private DateTime fourthDate = new(2013, 01, 15, 08, 15, 00);
+        private DateTime fifthDate = new(2013, 01, 15, 08, 30, 00);
+        private DateTime sixthDate = new(2013, 01, 15, 15, 00, 00);
+        private DateTime seventhDate = new(2013, 01, 15, 16, 30, 00);
+        private DateTime eightDate = new(2013, 01, 15, 18, 50, 00);
+        private DateTime ninthDate = new(2013, 01, 15, 20, 50, 00);
 
         [SetUp]
         public void Setup()

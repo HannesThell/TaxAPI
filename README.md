@@ -14,3 +14,13 @@ It is a POST request with an example input as below.
 }
 
 The operation is currently limited to the year 2013 and for the Swedish market.
+
+Possible VehicleTypes are:
+
+- Car
+- Motorcycle
+- Tractor
+- Emergency
+- Diplomat
+- Foreign
+- Military
