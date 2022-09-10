@@ -20,7 +20,6 @@ namespace TaxAPI.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult CalculateTax([FromBody]VehicleTaxInput vehicleTaxInput)
         {
-
             int totalTax = congestionTaxCalculator.CalculateTax(vehicleTaxInput.VehicleType, vehicleTaxInput.TaxationDates);
 
             var taxReponse = new VehicleTaxResponse

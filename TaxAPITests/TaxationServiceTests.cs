@@ -22,7 +22,7 @@ namespace TaxAPITests
         [TestCase("2013-02-08 18:35:00", ExpectedResult = 0)]
         [TestCase("2013-03-26 14:25:00", ExpectedResult = 8)]
         [TestCase("2013-03-28 14:07:27", ExpectedResult = 0, Description = "Day before holiday")]
-        public int GetTollFee_ReturnsX_WhenY(string dateTime)
+        public int GetTollFee_ReturnsCorrectAMount_GivenDateAndTime(string dateTime)
         {
             //Assign
             var date = DateTime.Parse(dateTime);
